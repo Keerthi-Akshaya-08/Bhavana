@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration</title>
+    <style>
+        body{
+  text-align:center;
+  font-family:sans-serif;
+  background-image:linear-gradient(to bottom right,#33adff,#7300e6); 
+  color:white;
+}
+#title{
+  font-size:45px;
+}
+#description{
+  font-size:20px;
+}
+#body{
+  width:600px;
+  background-color:rgba(0,0,0,0.6);
+  padding:30px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  font-size:20px;
+  color:white;
+}
+#edit{
+  width:560px;
+  padding:15px;
+  border-radius:10px;
+}
+#submit{
+  width:590px;
+  padding:20px;
+  font-size:25px;
+  border-radius:10px;
+  border:none;
+  margin-top:3%;
+  color:white;
+  background-color:green;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="title">
+        <h1 id="title">REGISTRATION FORM</h1>
+</div>
+<div id="body">
+    <form action="/register1" method="post">
+
+        <label id="name-label" for="name">
+            <p>First Name:</p>
+          <input id="edit" name="fname" placeholder="First Name" required>
+          </label>
+          <br>
+
+          <label id="name-label" for="name">
+            <p>Last Name:</p>
+          <input id="edit" name="lname" placeholder="Last Name" required>
+          </label>
+          <br>
+
+          <label id="name-label" for="name">
+            <p>Gender:</p>
+          <input id="edit" name="gender" placeholder="Gender" required>
+          </label>
+          <br>
+
+          <label id="name-label" for="name">
+            <p>Email:</p>
+          <input id="edit" name="email" type="email" placeholder="Email" required>
+          </label>
+          <br>
+          <label id="name-label" for="name">
+            <p>Password:</p>
+          <input id="edit" name="pass" type="password" placeholder="Password" required>
+          </label>
+          <br>
+          <label id="name-label" for="name">
+            <p>Address:</p>
+          <input id="edit" name="addr" type="text" placeholder="Address" required>
+          </label>
+          <br>
+          <label id="name-label" for="name">
+            <p>Nationality:</p>
+          <input id="edit" name="nati" type="text" placeholder="Nationality" required>
+          </label>
+          <br>
+          <label id="name-label" for="name">
+            <p>State:</p>
+          <input id="edit" name="state" type="text" placeholder="State" required>
+          </label>
+          <br>
+          <label id="name-label" for="name">
+            <p>City:</p>
+          <input id="edit" name="city" type="text" placeholder="City" required>
+          </label>
+          <br>
+          <label id="name-label" for="name">
+            <p>Pincode:</p>
+          <input id="edit" name="pincode" type="text" placeholder="Pincode" required>
+          </label>
+          <br><input type="submit" value="submit" name="submit" id="submit">
+          <br><br>
+  <button>       <a href="/"> Sign in if you are a user</a> </button>
+    </form>
+</div>
+    
+</body>
+</html>
